@@ -1,0 +1,331 @@
+.cardWrapper {
+    margin-top: 5%;
+}
+
+.activeCard {
+    box-shadow: 0 6.2px 14.3px 5px #d8d8d8;
+}
+
+.cards {
+    width: 21%;
+    height: 280px;
+    border-bottom: 2px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+    border-left: 1px solid #D8D8D8;
+    border-top: none;
+    margin-right: 1.5%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.imgWrapper,
+.topHalf,
+.details,
+.bottomHalf {
+    position: relative;
+}
+
+.topHalf,
+.imgWrapper,
+.tileImgs {
+    max-height: 164px;
+}
+
+.topHalf,
+.details,
+.bottomHalf {
+    z-index: -1;
+}
+
+.bottomHalf {
+    margin: 10px 0 0 19px;
+}
+
+.tileImgs {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title {
+    font-size: 16px;
+    max-width: 220px;
+    margin: 0;
+}
+
+.writing {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.overlayText {
+    color: white;
+    text-transform: uppercase;
+}
+
+.stats,
+.overlayText {
+    font-size: 10px;
+}
+
+.cards,
+.title,
+.smallImg,
+.stats,
+.icons {
+    display: inline-block;
+}
+
+.title,
+.bottomHalf,
+.statsWrapper,
+.details {
+    text-align: left;
+}
+
+.smallImg { 
+    float: right;
+    margin-right: 6%;
+    width: 28px;
+    height: 28px;
+}
+
+.overlayTop::after,
+.workoutWrapper {
+    position: absolute;
+    right: 0;
+}
+
+.overlayTop::after {
+    opacity: 54%;
+    background: #000C28;
+    width: 112px;
+    content: "";
+    /* z-index: 9; */
+    top: 0;
+    bottom: 0;
+}
+
+.workoutWrapper {
+    /* top: 13%; */
+    top: 24%;
+    /* z-index: 9; */
+    text-align: center;
+    margin-right: 8%;
+}
+
+.cards,
+.smallImg,
+.stats {
+    vertical-align: top;
+}
+
+.statsWrapper {
+    margin: 5px 0 0 19px;
+}
+
+.icons {
+    height: 12px;
+    width: 12px;
+}
+
+.stats {
+    margin: 0 7px;
+}
+
+.details {
+    color: #0069D2;
+    text-transform: uppercase;
+    margin: 5px 0 0 21px;
+    font-size: 14px;
+}
+
+.numbers {
+    font-size: 24px;
+    margin: 0;
+}
+
+.workout {
+    margin-top: 7px;
+}
+
+.playlist {
+    height: 24px;
+    width: 24px;
+}
+
+.lastCard {
+    margin-right: 0;
+}
+
+.cardWrapper2 {
+    margin: 2% 0 4%;
+}
+
+@media(max-width: 1359px) {
+    .title {
+        max-width: 163px;
+    }
+
+    .overlayTop::after {
+        bottom: 3px;
+    }
+}
+
+@media(max-width: 1180px) {
+    .workoutWrapper {
+        top: 10%;
+    }
+    
+    .cards {
+        height: 260px;
+    }
+    
+    .bottomHalf {
+        margin: 10px 0 0 8px;
+    }
+    
+    .title {
+        max-width: 148px;
+        font-size: 14px;
+    }
+    
+    .numbers {
+        font-size: 20px;
+    }
+    
+    .statsWrapper {
+        margin: 5px 0 0 8px;
+    }
+    
+    .details {
+        margin: 5px 0 0 8px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 935px) {
+    .title {
+        max-width: 130px;
+    }
+
+    .workout {
+        margin: 4px 0 6px;
+    }
+}
+
+@media(max-width: 835px) {
+    .cards {
+        width: 33%;
+        margin-right: 0%;
+        height: 270px;
+    }
+
+    #one,
+    #five {
+        margin-bottom: 1.5%;
+    }
+
+    .oddCards {
+        margin-right: 1.5%;
+    }
+
+    .cardWrapper2 {
+        margin: 1.5% 0 4%;
+    }
+
+    .title {
+        max-width: 156px;
+    }
+}
+
+@media(max-width: 420px) {
+    .cards {
+        width: 45%;
+        height: 212px;
+    }
+
+    .workoutWrapper {
+        top: 9%;
+        margin-right: 6%;
+    }
+
+    #one,
+    #five {
+        margin-bottom: 2.5%;
+    }
+
+    .oddCards {
+        margin-right: 2.5%;
+    }
+
+    .overlayTop::after {
+        width: 89px;
+    }
+
+    .title {
+        max-width: 135px;
+    }
+
+    .cardWrapper2 {
+        margin: 2.5% 0 4%;
+    }
+}
+
+@media(max-width: 381px) {
+    .cards {
+        height: 219px;
+    }
+
+    .title {
+        max-width: 123px;
+    }
+
+    .workoutWrapper {
+        top: 8%;
+    }
+
+    .numbers {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 360px) {
+    .smallImg {
+        margin-right: 3%;
+    }
+
+    .title {
+        max-width: 116px;
+    }
+
+    .workoutWrapper {
+        top: 7%;
+    }
+}
+
+@media(max-width: 321px) {
+    .title {
+        max-width: 103px;
+        font-size: 12px;
+    }
+
+    .workout {
+        margin: 1px 0 2px;
+    }
+
+    .workoutWrapper {
+        top: 6%;
+    }
+
+    .cards {
+        height: 204px;
+    }
+
+    .workoutWrapper {
+        margin-right: 4%;
+    }
+
+    .overlayTop::after {
+        width: 72px;
+    }
+}
