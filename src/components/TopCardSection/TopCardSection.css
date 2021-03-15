@@ -21,7 +21,8 @@
 .imgWrapper,
 .topHalf,
 .details,
-.bottomHalf {
+.bottomHalf,
+.statsWrapper {
     position: relative;
 }
 
@@ -33,7 +34,8 @@
 
 .topHalf,
 .details,
-.bottomHalf {
+.bottomHalf,
+.statsWrapper {
     z-index: -1;
 }
 
