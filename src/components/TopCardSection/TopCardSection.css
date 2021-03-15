@@ -100,15 +100,12 @@
     background: #000C28;
     width: 112px;
     content: "";
-    /* z-index: 9; */
     top: 0;
     bottom: 0;
 }
 
 .workoutWrapper {
-    /* top: 13%; */
     top: 24%;
-    /* z-index: 9; */
     text-align: center;
     margin-right: 8%;
 }
